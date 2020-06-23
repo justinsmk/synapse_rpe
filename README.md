@@ -1,1 +1,4 @@
 # synapse_rpe
+# Parkinsonian patients are known to have a defeciency in the number of dopaminergic (DA) neurons. Defeciency of DA neurons is known to impair value prediciton in numerous decision making studies (Frank et al. 2004, Schonberg et al. 2010). This mini-project explores these two findings by applying a reward predcition error (RPE) model into a neuronal synapse simulation.
+# The synapse simulation allows for altering the cell count within the neuron. We assume that lower cell count compared to a control cell count represents the DA neuron defeciency observed in Parkinson patients. The firing rate in the cell population of the simulation will change based on the number of cells present.
+# Assuming lower firing rate of DAergic neurons implies lower reward signals in the DA circuit, I translate the firing rate into learning rate of the RPE model.
